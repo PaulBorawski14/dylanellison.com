@@ -1,0 +1,140 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  height: 678px;
+  background: #000 url(https://cldup.com/hsT1FzARrU.JPG) no-repeat center bottom;
+  position: relative;
+  background-size: cover;
+}
+
+
+header div.hero {
+  position: absolute;
+  width: 42%;
+  top: 485px;
+  left: 55%;
+}
+
+header div.hero h1 {
+  line-height: 1em;
+  margin: 0 0 10px 0;
+  color: #fff;
+  text-shadow: 2px 2px 8px black;
+}
+
+header a.btn {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* navigation */
+nav {
+  background-color: rgba(0,0,0,.65);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px 0 0 0;
+  width: 100%;
+}
+
+nav::after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+nav ul li:hover {
+  background-color: #2b0306;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 125px;
+  position: relative;
+}
+
+nav ul li a:visited {
+  color: #fff
+}
+
+nav ul li a:hover {
+  background-color: #000;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0,0,0,.65);
+  display: none;
+}
+
+nav ul ul li {
+  position: relative;
+}
+
+nav ul ul ul {
+  left: 100%; top: 0px;
+}
+
+
+
+/* top level */
+nav > ul {
+  padding-left: 100px;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li > a {
+  width: auto;
+  padding: 10px 20px 15px 20px;
+}
+
+nav a[aria-haspopup="true"]::after {
+  content: '';
+  display: block;
+  width: 0px; height 0px;
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #fff;
+}
+
+nav > ul >li > a[aria-haspopup="true"]::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: solid #fff;
+  left: 20px; right: auto;
+  bottom: 6px; top: auto;
+}

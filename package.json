@@ -1,0 +1,13 @@
+{
+  "name": "dylanellison.com",
+  "description": "I like turtles.",
+  "dependencies": {
+    "body-parser": "",
+    "compression": "",
+    "express": "",
+    "jquery": "^2.2.0",
+    "less": "^2.6.0",
+    "sass": "",
+    "stylus": ""
+  }
+}
