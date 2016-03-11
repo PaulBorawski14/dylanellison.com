@@ -138,3 +138,33 @@ nav > ul >li > a[aria-haspopup="true"]::after {
   left: 20px; right: auto;
   bottom: 6px; top: auto;
 }
+
+div.snakeycakey {
+  height: 700px;
+  background: #000 url(https://cldup.com/9D2nrfpfVY.jpg) no-repeat center bottom;
+  position: relative;
+  background-size: cover;
+}
+
+div.snakeycakey p {
+  margin-top: 0px;
+  text-align: center;
+  font-family: verdana;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #777;
+  padding-top: 100px;
+}
+
+div p.rakeybakey {
+  padding-top: 0px;
+}
+div.snakeycakey p a {
+  margin-top: 0px;
+  text-align: right;
+  font-family: verdana;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #777;
+  padding-top: -50px;
+}
