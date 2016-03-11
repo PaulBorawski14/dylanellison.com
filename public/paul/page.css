@@ -1,0 +1,20 @@
+article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  background-color: #CCC;
+}
+h1 {
+  text-align: center;
+  font-family: verdana;
+  text-shadow: 2px 2px 8px;
+}
+p {
+  text-align: center;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: #000;
+}
