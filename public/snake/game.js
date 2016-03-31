@@ -37,7 +37,7 @@ game = {
   },
 
   drawScore: function() {
-    context.fillStyle = '#000';
+    context.fillStyle = '#999';
     context.font = (canvas.height) + 'px Impact, sans-serif';
     context.textAlign = 'center';
     context.fillText(game.score, canvas.width / 2, canvas.height * 0.9);
